@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="СУИП">
+	<meta name="keywords" content="">
+	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
+	<!-- 180x180 - ставим первым для safari -->
+	<link rel="icon" href="./img/favicons/favicon.ico" sizes="any"><!-- 32x32 -->
+	<link rel="icon" href="./img/favicons/icon.svg" type="image/svg+xml">
+	<link rel="manifest" href="./img/favicons/manifest.webmanifest">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>СУИП</title>
+</head>
+
+<body>
+	<header class="l-header">
+  <div class="l-wrapper">
+    <div class="l-header__content">
+      <div class="l-header__mobile">
+        <div class="l-header__list">
+          <ul class="flex --align-center">
+            <li class="lang">
+              <a href="#">
+                <svg >
+                  <use xlink:href="img/sprite.svg#sprite--lang" />
+                </svg>
+              </a>
+            </li>
+            <li class="glass">
+              <a href="#">
+                <svg class="" style="fill:#F9F9F9;">
+                  <use xlink:href="img/sprite.svg#sprite--glasses" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="l-header__mobile">
+        <div class="l-logo">
+          <a class="l-logo__link" href="/">
+            <svg class="@@class">
+              <use xlink:href="img/sprite.svg#css--logo" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="l-logo">
+        <a class="l-logo__link" href="/">
+          <svg class="@@class">
+            <use xlink:href="img/sprite.svg#css--logo" />
+          </svg>
+        </a>
+      </div>
+      <nav class="l-header_nav">
+        <ul class="l-header_nav-list">
+          <li>
+            <a href="about-yakutia.html" class="l-header_nav-list-link active-link">О ЯКУТИИ</a>
+          </li>
+          <li>
+            <a href="7-agenstvo.html" class="l-header_nav-list-link">АГЕНТСТВО</a>
+          </li>
+          <li>
+            <a href="invest-climat.html" class="l-header_nav-list-link">ИНВЕСТКЛИМАТ</a>
+          </li>
+          <li>
+            <a href="invest-standart.html" class="l-header_nav-list-link">ИНВЕСТСТАНДАРТ</a>
+          </li>
+          <li>
+            <a href="investoru.html" class="l-header_nav-list-link">ИНВЕСТОРУ</a>
+          </li>
+          <li>
+            <a href="media.html" class="l-header_nav-list-link">МЕДИА</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="l-header__list">
+        <ul class="flex --align-center">
+          <li>
+            <a href="#">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#sprite--lang" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="" style="fill:#F9F9F9;">
+                <use xlink:href="img/sprite.svg#sprite--glasses" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <svg class="js-search-icon" style="width:24px; height:24px;">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </li>
+        </ul>
+
+        <div class="l-burger__btn">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+      </div>
+
+      <div class="search-bar__block">
+        <div class="l-wrapper">
+          <form class="search-bar">
+            <input type="text" class="js-search-input" placeholder="Поиск">
+
+          </form>
+        </div>
+
+      </div>
+
+      <div class="l-header__body">
+
+        <div class="l-wrapper">
+
+          <form class="l-header__body-search">
+            <input type="text" class="search-input" placeholder="Поиск">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </form>
+
+          <ul class="l-header__grid">
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="about-yakutia.html">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="municip-obrazovanie.html">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="invest-upolnomochennuye.html">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-climat.html">ИНВЕСТКЛИМАТ</a>
+                </li>
+
+                <li>
+                  <a href="about-invest-climat.html">Об инвестклимате</a>
+                </li>
+
+                <li>
+                  <a href="coordinate-sovet.html">Координационный совет по предпринимательству при Главе РС(Я)  </a>
+                </li>
+
+                <li>
+                  <a href="#">Решение проектного офиса по улучшению инвестклимата</a>
+                </li>
+
+                <li>
+                  <a href="#">Оценка инвестклимата</a>
+                </li>
+
+                <li>
+                  <a href="#">Содействие развитию конкуренции на территории РС(Я)</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-standart.html">ИНВЕСТСТАНДАРТ</a>
+                </li>
+
+                <li>
+                  <a href="">Инвестиционная декларация</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционная карта</a>
+                </li>
+
+                <li>
+                  <a href="invest-svod-pravil.html">Свод инвестиционных правил</a>
+                </li>
+
+                <li>
+                  <a href="team.html">Инвестиционный комитет</a>
+                </li>
+
+                <li>
+                  <a href="7-agenstvo.html">Агентство</a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="investoru.html">ИНВЕСТОРУ</a>
+                </li>
+
+                <li>
+                  <a href="calendar.html">Календарь мероприятий</a>
+                </li>
+
+                <li>
+                  <a href="#">Меры государственной поддержки</a>
+                </li>
+
+                <li>
+                  <a href="invest-struktura.html">Инвестиционная инфраструктура</a>
+                </li>
+
+                <li>
+                  <a href="#">Система оценки качества инфраструктуры</a>
+                </li>
+
+                <li>
+                  <a href="#">Институты развития</a>
+                </li>
+
+                <li>
+                  <a href="#">Порядок обращения для инвесторов</a>
+                </li>
+
+                <li>
+                  <a href="#">Полезные ресурсы</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-projects.html">ИНВЕСТИЦИОННЫЕ ПРОЕКТЫ</a>
+                </li>
+
+                <li>
+                  <a href="agro-kompleks.html">Агропромышленный комплекс</a>
+                </li>
+
+                <li>
+                  <a href="#">Социальная сфера</a>
+                </li>
+
+                <li>
+                  <a href="#">Транспорт и логистика</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм</a>
+                </li>
+
+                <li>
+                  <a href="#">Лесопромышленный комплекс</a>
+                </li>
+
+                <li>
+                  <a href="#">Жилищно-коммунальное хозяйство</a>
+                </li>
+
+                <li>
+                  <a href="#">Строительный комплекс</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="media.html">МЕДИА</a>
+                </li>
+
+                <li>
+                  <a href="#">Журнал InvestYakutia</a>
+                </li>
+
+                <li>
+                  <a href="news.html">Новости</a>
+                </li>
+
+                <li>
+                  <a href="press-sentr.html">Пресс-служба</a>
+                </li>
+              </ul>
+              <ul class="last-child">
+                <li class="big-word">
+                  <a href="feedback-main-page.html">ОБРАТНАЯ СВЯЗЬ</a>
+                </li>
+
+                <li>
+                  <a href="#">Прямая линия с Главой Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="feedback.html">Свяжитесь с нами</a>
+                </li>
+              </ul>
+
+
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+	<main class="main">
+    <section class="l-page--header">
+  <div class="l-wrapper">
+    <div class="l-breadcrumbs">
+      <ul>
+        <li>
+          <a class="fs-14-400" href="#">
+            Главная
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <a class="fs-14-400" href="#">
+            О Якутии
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <span class="fs-14-400">
+            Муниципальные образования
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--sections-list @@hiddenClass">
+      <ul>
+        <li>
+          <a href="#" class="fs-18-500 Муниципальные образованияColor">
+            О Якутии
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--title">
+      <h1 class="fs-50-600 Муниципальные образованияColorClass">
+        Муниципальные образования
+      </h1>
+    </div>
+  </div>
+</section>
+    <section class="l-municip mt-80">
+      <div class="l-wrapper">
+        <div class="l-municip--accrodion">
+          <div class="l-municip--left">
+            <div class="l-block--title">
+              <h4 class="fs-40-600">Район</h4>
+            </div>
+            <div class="custom-select2 color-select--black">
+              <div class="select-selected">
+                МО «Алданский район»
+                <div class="custom-select__arrow">
+                  <svg width="24" height="24">
+                    <use href="/img/sprite.svg#sprite--accordion-arrow" xlink:href="/img/sprite.svg#sprite--accordion-arrow"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="select-items2 select-hide2 fs-18-400">
+                <div>
+                  <a href="municip-obrazovanie.html">
+                    Городской округ «Город Якутск»
+                  </a>
+                </div>
+                <div >
+                  <a href="mun-jatai.html">
+                    Городской округ «поселок Жатай»
+                  </a>
+                </div>
+                <div class="same-as-selected">
+                  <a href="mun-aldan.html">
+                    МО «Алданский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Аллаиховский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Анабарский национальный район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Булунский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Верхоянский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Кобяйский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Ленский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Мирнинский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Момский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Намский улус»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Нерюнгринский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Оймяконский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Среднеколымский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Усть-Янский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Чурапчинский район»
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    МО «Эвено-Бытантайский район»
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="l-municip--container">
+          <div class="l-municip--left">
+            <div class="l-municip--content fs-18-400">
+              <b class="fs-28-600">
+                МО «Алданский район»
+              </b>
+              <br>
+              <br>
+              <p>
+                Образован 5 мая 1930 года. Территория – 156,8 тыс. кв. км. Расположен на юге республики Саха (Якутия), на Алданском щите. Граничит с Амгинским, Нерюнгринским, Олекминским, Усть-Майским, Хангаласским районами. В состав района входят города Алдан, Томмот, поселки Ленинский, Нижний Куранах, наслеги: Беллетский, Анамы, Чагдинский. Административный центр – город Алдан.
+              </p>
+              <br>
+              <p>
+                Численность населения на 1 января 2023 г. – 39279 человек (оценка).
+              </p>
+              <br>
+              <p>
+                Рельеф горный.  Крупные реки района: Алдан, Унгра, Тимптон, Гонам. Средняя температура января: -34 °С, июля: +18 °С.
+              </p>
+              <br>
+              <p>
+                Ведущее место в экономике занимает горнодобывающая промышленность — добыча золота, слюды, имеется производство строительных материалов, ремонтно-механические и автотранспортные предприятия, деревообработка, отрасли ювелирной, пищевой промышленности.
+              </p>
+              <br>
+              <p>
+                В 1993 г. в Алдан прибыл первый поезд.
+              </p>
+              <br>
+              <br>
+              <div class="l-municip--content__footer">
+                <p>Дата создания: 25-05-2021</p>
+                <p>Дата последнего изменения: 13-10-2022</p>
+              </div>
+            </div>
+            <div class="l-municip--footer">
+              <div class="l-municip--links">
+                <span class="fs-18-600">
+                  Сайт:
+                </span>
+                <a href="https://mr-aldanskij.sakha.gov.ru/">
+                  https://mr-aldanskij.sakha.gov.ru/
+                </a>
+              </div>
+              <div class="l-municip--socials">
+                <span class="fs-18-600">
+                  Поделиться в соц.сети:
+                </span>
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--vk" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--telega" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--wa" />
+                      </svg>  
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="l-municip--right">
+            <div class="l-municip--img">
+              <img src="/img/gerb-aldan.jpg" alt="">
+              <div class="l-municip--img_desc">
+                <span class="fs-18-600">
+                  МО «Алданский район»
+                </span>
+              </div>
+            </div>
+            <div class="l-municip--footer">
+              <div class="l-municip--links">
+                <span class="fs-18-600">
+                  Сайт:
+                </span>
+                <a href="https://mr-aldanskij.sakha.gov.ru/">
+                  https://mr-aldanskij.sakha.gov.ru/
+                </a>
+              </div>
+              <div class="l-municip--socials">
+                <span class="fs-18-600">
+                  Поделиться в соц.сети:
+                </span>
+                <ul>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--vk" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--telega" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+                      </svg>  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                      <svg class="" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#sprite--wa" />
+                      </svg>  
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	</main>
+	
+<footer class="l-footer">
+  <div class="l-wrapper">
+    <div class="l-footer__content">
+      <div class="l-footer__left">
+        <a href="/">
+          <svg class="l-footer__logo">
+            <use xlink:href="img/sprite.svg#sprite--logo-white" />
+          </svg>   
+        </a>
+ 
+        <div class="l-footer__left-list">
+          <span class="fs-20-500 text-white">
+            Контакты
+          </span>
+          <ul>  
+            <li>
+              <a href="tel:74112402042" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--phone" />
+                </svg> 
+                <span class="fs-16-400 text-white">+7 (4112) 40 20 42</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--location" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  Республика Саха (Якутия) 677000, г. Якутск, 
+                  <br>
+                  ул. Орджоникидзе, д. 36/1, этаж 5, оф. 503
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@investyakutia.com" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--mail" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  info@investyakutia.com
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-footer__right">
+        <span class="fs-20-500 text-white">
+          Cоциальные сети
+        </span>
+        <ul class="l-social__list">
+          <li>
+            <a href="https://vk.com/id749937814" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--vk" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="https://t.me/investyakutia2022" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--telega" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="https://ok.ru/profile/589102128551" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+              </svg>   
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="l-footer__bottom">
+      <span class="fs-14-400 text-white">
+        2021-2023г. Все права защищены.
+      </span>
+      <a href="#" class="fs-14-400 text-white">
+        Политика конфиденциальности 
+      </a>
+      <span class="fs-14-400 text-white logo-platforma">
+        Разработан в 
+        <a class="" href="https://platforma.bz/" target="_blank">
+
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- <script src="js/libs.min.js"></script> -->
+<script src="js/vue2.js"></script>
+<script src="js/v-calendar.umd.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>
