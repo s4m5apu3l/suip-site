@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="СУИП">
+	<meta name="keywords" content="">
+	<!-- <link rel="shortcut icon" href="@@favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="@@favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="@@favicon.png" type="image/x-icon"> -->
+	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
+	<!-- 180x180 - ставим первым для safari -->
+	<link rel="icon" href="./img/favicons/favicon.ico" sizes="any"><!-- 32x32 -->
+	<link rel="icon" href="./img/favicons/icon.svg" type="image/svg+xml">
+	<link rel="manifest" href="./img/favicons/manifest.webmanifest">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>СУИП</title>
+</head>
+
+<body>
+  <header class="l-header">
+  <div class="l-wrapper">
+    <div class="l-header__content">
+      <div class="l-header__mobile">
+        <div class="l-header__list">
+          <ul class="flex --align-center">
+            <li class="lang">
+              <a href="#">
+                <svg >
+                  <use xlink:href="img/sprite.svg#sprite--lang" />
+                </svg>
+              </a>
+            </li>
+            <li class="glass">
+              <a href="#">
+                <svg class="" style="fill:#F9F9F9;">
+                  <use xlink:href="img/sprite.svg#sprite--glasses" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="l-header__mobile">
+        <div class="l-logo">
+          <a class="l-logo__link" href="/">
+            <svg class="@@class">
+              <use xlink:href="img/sprite.svg#css--logo" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="l-logo">
+        <a class="l-logo__link" href="/">
+          <svg class="@@class">
+            <use xlink:href="img/sprite.svg#css--logo" />
+          </svg>
+        </a>
+      </div>
+      <nav class="l-header_nav">
+        <ul class="l-header_nav-list">
+          <li>
+            <a href="#" class="l-header_nav-list-link active-link">О ЯКУТИИ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">АГЕНТСТВО</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТКЛИМАТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТСТАНДАРТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТОРУ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">МЕДИА</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="l-header__list">
+        <ul class="flex --align-center">
+          <li>
+            <a href="#">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#sprite--lang" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="" style="fill:#F9F9F9;">
+                <use xlink:href="img/sprite.svg#sprite--glasses" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <svg class="js-search-icon" style="width:24px; height:24px;">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </li>
+        </ul>
+
+        <div class="l-burger__btn">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+      </div>
+
+      <div class="search-bar__block">
+        <div class="l-wrapper">
+          <form class="search-bar">
+            <input type="text" class="js-search-input" placeholder="Поиск">
+
+          </form>
+        </div>
+
+      </div>
+
+      <div class="l-header__body">
+
+        <div class="l-wrapper">
+
+          <form class="l-header__body-search">
+            <input type="text" class="search-input" placeholder="Поиск">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </form>
+
+          <ul class="l-header__grid">
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="about-yakutia.html">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="municip-obrazovanie.html">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="invest-upolnomochennuye.html">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-climat.html">ИНВЕСТКЛИМАТ</a>
+                </li>
+
+                <li>
+                  <a href="about-invest-climat.html">Об инвестклимате</a>
+                </li>
+
+                <li>
+                  <a href="coordinate-sovet.html">Координационный совет по предпринимательству при Главе РС(Я)  </a>
+                </li>
+
+                <li>
+                  <a href="#">Решение проектного офиса по улучшению инвестклимата</a>
+                </li>
+
+                <li>
+                  <a href="#">Оценка инвестклимата</a>
+                </li>
+
+                <li>
+                  <a href="#">Содействие развитию конкуренции на территории РС(Я)</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-standart.html">ИНВЕСТСТАНДАРТ</a>
+                </li>
+
+                <li>
+                  <a href="">Инвестиционная декларация</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционная карта</a>
+                </li>
+
+                <li>
+                  <a href="invest-svod-pravil.html">Свод инвестиционных правил</a>
+                </li>
+
+                <li>
+                  <a href="team.html">Инвестиционный комитет</a>
+                </li>
+
+                <li>
+                  <a href="7-agenstvo.html">Агентство</a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="investoru.html">ИНВЕСТОРУ</a>
+                </li>
+
+                <li>
+                  <a href="calendar.html">Календарь мероприятий</a>
+                </li>
+
+                <li>
+                  <a href="#">Меры государственной поддержки</a>
+                </li>
+
+                <li>
+                  <a href="invest-struktura.html">Инвестиционная инфраструктура</a>
+                </li>
+
+                <li>
+                  <a href="#">Система оценки качества инфраструктуры</a>
+                </li>
+
+                <li>
+                  <a href="#">Институты развития</a>
+                </li>
+
+                <li>
+                  <a href="#">Порядок обращения для инвесторов</a>
+                </li>
+
+                <li>
+                  <a href="#">Полезные ресурсы</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="invest-projects.html">ИНВЕСТИЦИОННЫЕ ПРОЕКТЫ</a>
+                </li>
+
+                <li>
+                  <a href="agro-kompleks.html">Агропромышленный комплекс</a>
+                </li>
+
+                <li>
+                  <a href="#">Социальная сфера</a>
+                </li>
+
+                <li>
+                  <a href="#">Транспорт и логистика</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм</a>
+                </li>
+
+                <li>
+                  <a href="#">Лесопромышленный комплекс</a>
+                </li>
+
+                <li>
+                  <a href="#">Жилищно-коммунальное хозяйство</a>
+                </li>
+
+                <li>
+                  <a href="#">Строительный комплекс</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="media.html">МЕДИА</a>
+                </li>
+
+                <li>
+                  <a href="#">Журнал InvestYakutia</a>
+                </li>
+
+                <li>
+                  <a href="news.html">Новости</a>
+                </li>
+
+                <li>
+                  <a href="press-sentr.html">Пресс-служба</a>
+                </li>
+              </ul>
+              <ul class="last-child">
+                <li class="big-word">
+                  <a href="feedback-main-page.html">ОБРАТНАЯ СВЯЗЬ</a>
+                </li>
+
+                <li>
+                  <a href="#">Прямая линия с Главой Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="feedback.html">Свяжитесь с нами</a>
+                </li>
+              </ul>
+
+
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="main">
+    <section class="l-page--header">
+  <div class="l-wrapper">
+    <div class="l-breadcrumbs">
+      <ul>
+        <li>
+          <a class="fs-14-400" href="#">
+            Главная
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <a class="fs-14-400" href="#">
+            О Якутии
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <span class="fs-14-400">
+            Муниципальные образования
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--sections-list ">
+      <ul>
+        <li>
+          <a href="#" class="fs-18-500 Строительство современного энергосберегающего работизированного ЖВКColor">
+            Агропромышленный комплекс
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--title">
+      <h1 class="fs-50-600 text-dark">
+        Строительство современного энергосберегающего работизированного ЖВК
+      </h1>
+    </div>
+  </div>
+</section>
+    <section class="mt-80">
+      <div class="l-wrapper">
+
+        <div class="l-line__block flex --align-center --just-space" >
+          <div class="">
+            <span class="flex --align-start --dir-col" style="gap: 5px;">
+              <span class="fs-20-500" style="color: #FF1A1A;">Инициатор:</span>
+              <span class="fs-24-500" style="color: #1D1E33;">АДМИНИСТРАЦИЯ МУНИАИЦПАЛЬНОГО РАЙОНА
+                МЕГИНО-<br>КАНГАЛАССКОГО РАЙОНА РЕСПУБЛИКА САХА (ЯКУТИЯ)</span>
+            </span>
+          </div>
+          <div class="">
+            <span class="flex --align-start --dir-col" style="gap: 5px;">
+              <span class="fs-20-500" style="color: #FF1A1A;">Стоимость проекта:</span>
+              <span class="fs-24-500" style="color: #1D1E33;">2 300 МЛН РУБ</span>
+            </span>
+          </div>
+          <div class="">
+            <span class="flex --align-start --dir-col" style="gap: 5px;">
+              <span class="fs-20-500" style="color: #FF1A1A;">Объем инвестиций:</span>
+              <span class="fs-24-500" style="color: #1D1E33;">2 300 МЛН РУБ</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="l-content mt-80 l-invest__projects">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-80 overflow-x" style="padding-bottom: 60px;">
+      <div class="l-wrapper">
+        <div class="flex --dir-col" style="gap: 20px;">
+          <span class="fs-40-600">
+            Описание
+          </span>
+          <span class="fs-18-400">
+            Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний лишь добавляют
+            фракционных разногласий и ограничены исключительно образом мышления! Но повышение уровня гражданского
+            сознания способствует подготовке и реализации распределения внутренних резервов и ресурсов.
+          </span>
+        </div>
+
+        <div class="l-success__swiper js-swiper__detail-page mt-50">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="l-success__slide">
+                <img src="https://placeimg.com/640/480/any" alt="">
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="l-success__slide">
+                <img src="https://placeimg.com/640/480/any" alt="">
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="l-success__slide">
+                <img src="https://placeimg.com/640/480/any" alt="">
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="l-success__slide">
+                <img src="https://placeimg.com/640/480/any" alt="">
+              </div>
+            </div>
+
+          </div>
+          <div class="js-swiper-pag">
+            <div class="success-button-next"></div>
+            <div class="success-button-prev"></div>
+            <div class="success-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="flex --dir-col" style="gap: 20px;">
+          <span class="fs-40-600">
+            Параметры
+          </span>
+          <span class="fs-18-400">
+            Объем производстства: 7200т/г мяса (свинина) в живом весе; Не менее 50 000 тыс. откормочных голов в год; 2
+            000 голов свиноматочного поголовья на товарной ферме, не менее 300 свиноматочных голов в племенном
+            репродукторе; 6 000 голов товарного молодняка для реализации населению.
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-80 l-project__descr-section">
+      <div class="l-wrapper">
+        <div class="l-project__descr-body">
+          <div class="l-list">
+            <div class="l-title">
+              <span class="fs-40-600 text-dark">Инвестор</span>
+            </div>
+            <ul>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Администрация муниципального образования «Анабарский национальный (долганоэвенкийский) улус (район)»
+                </span>
+              </li>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Администрация муниципального образования «Анабарский национальный (долганоэвенкийский) улус (район)»
+                </span>
+              </li>
+              
+            </ul>
+          </div>
+          
+          <div class="l-list">
+            <div class="l-title">
+              <span class="fs-40-600 text-dark">Местность</span>
+            </div>
+            <ul>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Мегино-Кангаласский район
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="#" class="l-btn l-btn__white l-btn__modal">Откликнуться на проект</a>
+
+      </div>
+    </section>
+
+    <div class="l-modal__component">
+      <div class="bg"></div>
+      <div class="l-content">
+        <a href="javascript:void(0)" class="close">
+          <svg class="">
+  <use xlink:href="img/sprite.svg#sprite--close" />
+</svg>
+
+        </a>
+        <div class="l-title">
+          <span class="fs-40-600 text-dark">
+            ОТКЛИКНУТЬСЯ НА ПРОЕКТ
+          </span>
+        </div>
+        <div class="flex --align-center btns" style="gap:20px;">
+          <div class="l-btn">
+            Авторизоваться через Госулсуги
+          </div>
+          <div class="l-btn">
+            Заполнить в ручную
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+  
+<footer class="l-footer">
+  <div class="l-wrapper">
+    <div class="l-footer__content">
+      <div class="l-footer__left">
+        <a href="/">
+          <svg class="l-footer__logo">
+            <use xlink:href="img/sprite.svg#sprite--logo-white" />
+          </svg>   
+        </a>
+ 
+        <div class="l-footer__left-list">
+          <span class="fs-20-500 text-white">
+            Контакты
+          </span>
+          <ul>  
+            <li>
+              <a href="tel:74112402042" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--phone" />
+                </svg> 
+                <span class="fs-16-400 text-white">+7 (4112) 40 20 42</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--location" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  Республика Саха (Якутия) 677000, г. Якутск, 
+                  <br>
+                  ул. Орджоникидзе, д. 36/1, этаж 5, оф. 503
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@investyakutia.com" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--mail" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  info@investyakutia.com
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-footer__right">
+        <span class="fs-20-500 text-white">
+          Cоциальные сети
+        </span>
+        <ul class="l-social__list">
+          <li>
+            <a href="https://vk.com/id749937814" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--vk" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="https://t.me/investyakutia2022" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--telega" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="https://ok.ru/profile/589102128551" target="_blank">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+              </svg>   
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="l-footer__bottom">
+      <span class="fs-14-400 text-white">
+        2021-2023г. Все права защищены.
+      </span>
+      <a href="#" class="fs-14-400 text-white">
+        Политика конфиденциальности 
+      </a>
+      <span class="fs-14-400 text-white logo-platforma">
+        Разработан в 
+        <a class="" href="https://platforma.bz/" target="_blank">
+
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- <script src="js/libs.min.js"></script> -->
+<script src="js/vue2.js"></script>
+<script src="js/v-calendar.umd.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="СУИП">
+	<meta name="keywords" content="">
+	<!-- <link rel="shortcut icon" href="@@favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="@@favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="@@favicon.png" type="image/x-icon"> -->
+	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
+	<!-- 180x180 - ставим первым для safari -->
+	<link rel="icon" href="./img/favicons/favicon.ico" sizes="any"><!-- 32x32 -->
+	<link rel="icon" href="./img/favicons/icon.svg" type="image/svg+xml">
+	<link rel="manifest" href="./img/favicons/manifest.webmanifest">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>СУИП</title>
+</head>
+
+<body>
+  <header class="l-header">
+  <div class="l-wrapper">
+    <div class="l-header__content">
+      <div class="l-logo">
+        <a class="l-logo__link" href="/">
+          <svg class="@@class">
+            <use xlink:href="img/sprite.svg#css--logo" />
+          </svg>
+        </a>
+      </div>
+      <nav class="l-header_nav">
+        <ul class="l-header_nav-list">
+          <li>
+            <a href="#" class="l-header_nav-list-link active-link">О ЯКУТИИ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">АГЕНТСТВО</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТКЛИМАТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТСТАНДАРТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТОРУ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">МЕДИА</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="l-header__list">
+        <ul class="flex --align-center">
+          <li>
+            <a href="#">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#sprite--lang" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="" style="fill:#F9F9F9;">
+                <use xlink:href="img/sprite.svg#sprite--glasses" />
+              </svg>
+            </a>
+          </li>
+
+          <li >
+            <svg class="js-search-icon" style="width:24px; height:24px;">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </li>
+        </ul>
+
+        <div class="l-burger__btn">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+      </div>
+
+      <div class="search-bar__block">
+        <div class="l-wrapper">
+          <form class="search-bar">
+            <input  type="text" class="js-search-input" placeholder="Поиск">
+  
+          </form>
+        </div>
+
+      </div>
+
+      <div class="l-header__body">
+
+        <div class="l-wrapper">
+
+          <form class="l-header__body-search">
+            <input  type="text" class="search-input" placeholder="Поиск">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </form>
+
+          <ul class="l-header__grid">
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">МЕДИА</a>
+                </li>
+
+                <li>
+                  <a href="#">Журнал InvestYakutia</a>
+                </li>
+
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+
+                <li>
+                  <a href="#">Пресс-служба</a>
+                </li>
+              </ul>
+              <ul class="last-child">
+                <li class="big-word">
+                  <a href="#">ОБРАТНАЯ СВЯЗЬ</a>
+                </li>
+
+                <li>
+                  <a href="#">Прямая линия с Главой Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Свяжитесь с нами</a>
+                </li>
+              </ul>
+
+
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main class="main">
+    <section class="l-page--header">
+  <div class="l-wrapper">
+    <div class="l-breadcrumbs">
+      <ul>
+        <li>
+          <a class="fs-14-400" href="#">
+            Главная
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <a class="fs-14-400" href="#">
+            О Якутии
+          </a>
+        </li>
+        <li>
+          <i class="separator"></i>
+        </li>
+        <li>
+          <span class="fs-14-400">
+            Муниципальные образования
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--sections-list">
+      <ul>
+        <li>
+          <a href="#" class="fs-18-500">
+            Обратная связь
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="l-page--title">
+      <h1 class="fs-50-600 Свяжитесь с намиColorClass">
+        Свяжитесь с нами
+      </h1>
+    </div>
+  </div>
+</section>
+  </main>
+  
+<footer class="l-footer">
+  <div class="flex --align-center" style="flex-direction:column; color:white; position: absolute;">
+    <a href="/about-yakutia.html">about-yakutia</a>
+    <a href="/invest-standart.html">invest-standart</a>
+    <a href="/invest-svod-pravil.html">invest-svod-pravil</a>
+    <a href="/invest-upolnomochennuye.html">invest-upolnomochennuye</a>
+    <a href="/municip-obrazovanie.html">municip-obrazovanie</a>
+  </div>
+  <div class="l-wrapper">
+    <div class="l-footer__content">
+      <div class="l-footer__left">
+        <a href="/">
+          <svg class="l-footer__logo">
+            <use xlink:href="img/sprite.svg#sprite--logo-white" />
+          </svg>   
+        </a>
+ 
+        <div class="l-footer__left-list">
+          <span class="fs-20-500 text-white">
+            Контакты
+          </span>
+          <ul>  
+            <li>
+              <a href="tel:74112402042" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--phone" />
+                </svg> 
+                <span class="fs-16-400 text-white">+7 (4112) 40-20-42</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--location" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  Республика Саха (Якутия) 677000, г. Якутск, 
+                  <br>
+                  ул. Орджоникидзе, д. 36/1, этаж 5, оф. 503
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@investyakutia.com" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--mail" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  info@investyakutia.com
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-footer__right">
+        <span class="fs-20-500 text-white">
+          Cоциальные сети
+        </span>
+        <ul class="l-social__list">
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--vk" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--telega" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+              </svg>   
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="l-footer__bottom">
+      <span class="fs-14-400 text-white">
+        2021-2023г. Все права защищены.
+      </span>
+      <a href="#" class="fs-14-400 text-white">
+        Политика конфиденциальности 
+      </a>
+      <span class="fs-14-400 text-white logo-platforma">
+        Разработан в 
+        <a class="" href="https://platforma.bz/" target="_blank">
+
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>

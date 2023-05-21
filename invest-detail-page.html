@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="СУИП">
+	<meta name="keywords" content="">
+	<!-- <link rel="shortcut icon" href="@@favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="@@favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="@@favicon.png" type="image/x-icon"> -->
+	<link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
+	<!-- 180x180 - ставим первым для safari -->
+	<link rel="icon" href="./img/favicons/favicon.ico" sizes="any"><!-- 32x32 -->
+	<link rel="icon" href="./img/favicons/icon.svg" type="image/svg+xml">
+	<link rel="manifest" href="./img/favicons/manifest.webmanifest">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>СУИП</title>
+</head>
+
+<body>
+  <header class="l-header">
+  <div class="l-wrapper">
+    <div class="l-header__content">
+      <div class="l-logo">
+        <a class="l-logo__link" href="/">
+          <svg class="@@class">
+            <use xlink:href="img/sprite.svg#css--logo" />
+          </svg>
+        </a>
+      </div>
+      <nav class="l-header_nav">
+        <ul class="l-header_nav-list">
+          <li>
+            <a href="#" class="l-header_nav-list-link active-link">О ЯКУТИИ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">АГЕНТСТВО</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТКЛИМАТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТСТАНДАРТ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">ИНВЕСТОРУ</a>
+          </li>
+          <li>
+            <a href="#" class="l-header_nav-list-link">МЕДИА</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="l-header__list">
+        <ul class="flex --align-center">
+          <li>
+            <a href="#">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#sprite--lang" />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="" style="fill:#F9F9F9;">
+                <use xlink:href="img/sprite.svg#sprite--glasses" />
+              </svg>
+            </a>
+          </li>
+
+          <li >
+            <svg class="js-search-icon" style="width:24px; height:24px;">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </li>
+        </ul>
+
+        <div class="l-burger__btn">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+      </div>
+
+      <div class="search-bar__block">
+        <div class="l-wrapper">
+          <form class="search-bar">
+            <input  type="text" class="js-search-input" placeholder="Поиск">
+  
+          </form>
+        </div>
+
+      </div>
+
+      <div class="l-header__body">
+
+        <div class="l-wrapper">
+
+          <form class="l-header__body-search">
+            <input  type="text" class="search-input" placeholder="Поиск">
+            <svg class="">
+              <use xlink:href="img/sprite.svg#sprite--search" />
+            </svg>
+          </form>
+
+          <ul class="l-header__grid">
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">О ЯКУТИИ</a>
+                </li>
+
+                <li>
+                  <a href="#">Стратегия социально-экономического развития Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Экономические показатели региона</a>
+                </li>
+
+                <li>
+                  <a href="#">География и климат</a>
+                </li>
+
+                <li>
+                  <a href="#">Общество</a>
+                </li>
+
+                <li>
+                  <a href="#">Туризм и культура</a>
+                </li>
+
+                <li>
+                  <a href="#">Муниципальные образования</a>
+                </li>
+
+                <li>
+                  <a href="#">Инвестиционные уполномоченные</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li>
+              <ul class="l-header__grid-list">
+                <li>
+                  <a href="#">МЕДИА</a>
+                </li>
+
+                <li>
+                  <a href="#">Журнал InvestYakutia</a>
+                </li>
+
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+
+                <li>
+                  <a href="#">Пресс-служба</a>
+                </li>
+              </ul>
+              <ul class="last-child">
+                <li class="big-word">
+                  <a href="#">ОБРАТНАЯ СВЯЗЬ</a>
+                </li>
+
+                <li>
+                  <a href="#">Прямая линия с Главой Республики Саха (Якутия)</a>
+                </li>
+
+                <li>
+                  <a href="#">Свяжитесь с нами</a>
+                </li>
+              </ul>
+
+
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main class="main">
+    <section class="l-page--header">
+      <div class="l-wrapper">
+        <div class="l-breadcrumbs">
+          <ul>
+            <li>
+              <a class="fs-14-400" href="#">
+                Главная
+              </a>
+            </li>
+            <li>
+              <i class="separator"></i>
+            </li>
+            <li>
+              <a class="fs-14-400" href="#">
+                Инвестору
+              </a>
+            </li>
+            <li>
+              <i class="separator"></i>
+            </li>
+            <li>
+              <span class="fs-14-400">
+                Инвестиционная инфраструктура
+              </span>
+            </li>
+            <li>
+              <i class="separator"></i>
+            </li>
+            <li>
+              <span class="fs-14-400">
+                Территории опережающего развития
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="l-page--sections-list">
+          <ul>
+            <li>
+              <a href="#" class="fs-18-500 ">
+                Инвестиционная инфраструктура
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="l-page--title">
+          <h1 class="fs-50-600 text-dark-black">
+            Территории опережающего развития
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="flex --align-center">
+          <div class="l-text">
+            <span class="fs-18-400 text-dark">
+              Территория опережающего социально-экономического развития (ТОСЭР) – часть территории субъекта Российской
+              Федерации, на которой в соответствии с решением Правительства Российской Федерации установлен особый
+              правовой режим осуществления предпринимательской и иной деятельности в целях формирования благоприятных
+              условий для привлечения инвестиций, обеспечения ускоренного социально-экономического развития и создания
+              комфортных условий для обеспечения жизнедеятельности населения.
+              Резидентами территорий опережающего развития могут быть индивидуальные предприниматели и юридические лица,
+              заключившие с управляющей компанией соглашение об осуществлении деятельности на данной территории. Для них
+              предусмотрен особый налоговый режим и облегченные правила ведения бизнеса: ставка налога на прибыль не
+              более 5% в течение первых пяти лет, уменьшенные социальные взносы, может быть предусмотрено освобождения
+              от налога на недвижимость, таможенные преференции.
+              ТОСЭР «Якутия»
+            </span>
+          </div>
+
+          <img src="./img/map-ykt.png" class="l-map-ykt" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="l-title">
+          <span class="fs-40-600 text-dark-black">
+            ТОСЭР «Якутия»
+          </span>
+        </div>
+        <div class="l-text mt-28">
+          <span class="fs-18-400 text-dark">
+            Расстояние от ТОCЭР до международного аэропорта «Якутск» по автомобильной дороге – 33 км; до морских портов:
+            Владивосток – 3154 км, Ванино – 2896 км, Магадан – 1718 км, Тикси – 1694 км. Ближайшие жилые дома находятся
+            на расстоянии 50 м от границы ТОР.
+            <br>
+            <br>
+            Резиденты могут оформить земельные участки без процедуры торгов, бесплатно подключиться к инженерным сетям,
+            получить таможенные и миграционные преференции. Предусмотрены налоговые льготы:
+          </span>
+        </div>
+
+        <ul class="l-text-list flex --dir-col mt-25">
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              1. Заявительный порядок возмещения НДС. Зачет (возврат) суммы налога, заявленной к возмещению в налоговой
+              декларации, до завершения камеральной налоговой проверки.
+            </span>
+          </li>
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              2. Налоговая ставка по налогу на прибыль в федеральный бюджет – 0% в течение 5 налоговых периодов, начиная
+              с налогового периода, в котором была получена первая прибыль. Налоговая ставка по налогу в бюджет
+              субъектов РФ – не более 5% в течение 5 налоговых периодов, начиная с налогового периода, в котором была
+              получена первая прибыль от деятельности, осуществляемой при исполнении соглашений на ТОСЭР, и не может
+              быть менее 10% в течение следующих 5 налоговых периодов.
+            </span>
+          </li>
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              3. НДПИ. Применение понижающего коэффициента, характеризующего территорию добычи полезного ископаемого
+              (КТД 1) принимается равным:
+            </span>
+          </li>
+          <li class="mt-40">
+            <table class="l-table">
+              <tbody>
+                <tr>
+                  <td>Год</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11 и далее</td>
+                </tr>
+                <tr>
+                  <td>Ктд</td>
+                  <td colspan="2">0</td>
+                  <td colspan="2">0.2</td>
+                  <td colspan="2">0.4</td>
+                  <td colspan="2">0.6</td>
+                  <td colspan="2">0.8</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li class="mt-40">
+            <span class="fs-18-400 text-dark">
+              4. Тарифы страховых взносов в сумме составляют 7,6 %.
+            </span>
+          </li>
+        </ul>
+
+
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="l-title">
+          <span class="fs-40-600 text-dark-black">
+            ТОСЭР «Южная Якутия»
+          </span>
+        </div>
+
+        <div class="l-text mt-28">
+          <span class="fs-18-400 text-dark">
+            Расстояние от ТОР «Южная Якутия» до Федеральной трассы АЯМ (Амуро-Якутская магистраль) М-56 – 760 м; до
+            международного аэропорта «Якутск» по автомобильной дороге – 750 км; до морских портов: Ванино – 2125 км;
+            ближайшие жилые дома находятся на расстоянии 17 км от предполагаемой границы ТОР; территория 1,7 км на юг от
+            устья ручья Дежневка.
+            <br>
+            <br>
+            Резиденты могут оформить земельные участки без процедуры торгов, бесплатно подключиться к инженерным сетям,
+            получить таможенные и миграционные преференции. Предусмотрены налоговые льготы:
+          </span>
+        </div>
+
+        <ul class="l-text-list flex --dir-col mt-25">
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              1. Заявительный порядок возмещения НДС. Зачет (возврат) суммы налога, заявленной к возмещению в налоговой
+              декларации, до завершения камеральной налоговой проверки.
+            </span>
+          </li>
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              2. Налоговая ставка по налогу на прибыль в федеральный бюджет – 0% в течение 5 налоговых периодов, начиная
+              с налогового периода, в котором была получена первая прибыль. Налоговая ставка по налогу в бюджет
+              субъектов РФ – не более 5% в течение 5 налоговых периодов, начиная с налогового периода, в котором была
+              получена первая прибыль от деятельности, осуществляемой при исполнении соглашений на ТОСЭР, и не может
+              быть менее 10% в течение следующих 5 налоговых периодов.
+            </span>
+          </li>
+          <li class="mt-20">
+            <span class="fs-18-400 text-dark">
+              3. НДПИ. Применение понижающего коэффициента, характеризующего территорию добычи полезного ископаемого
+              (КТД 1) принимается равным:
+            </span>
+          </li>
+          <li class="mt-40">
+            <table class="l-table">
+              <tbody>
+                <tr>
+                  <td>Год</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11 и далее</td>
+                </tr>
+                <tr>
+                  <td>Ктд</td>
+                  <td colspan="2">0</td>
+                  <td colspan="2">0.2</td>
+                  <td colspan="2">0.4</td>
+                  <td colspan="2">0.6</td>
+                  <td colspan="2">0.8</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li class="mt-40">
+            <span class="fs-18-400 text-dark">
+              4. Тарифы страховых взносов в сумме составляют 7,6 %.
+            </span>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="l-title">
+          <span class="fs-40-600 text-dark-black">
+            Критерии для потенциального резидента
+          </span>
+        </div>
+        <div class="l-project__descr-body">
+          <div class="l-list " style="max-width: 100%;">
+            <ul>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Под резидентом ТОР понимается индивидуальный предприниматель или являющееся коммерческой организацией
+                  юридическое лицо, государственная регистрация которых осуществлена на территории ТОР и которые не
+                  имеют
+                  филиалов вне ТОР.
+                </span>
+              </li>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Необходимый минимальный объем инвестиций должен составлять 500 000 рублей.
+                </span>
+              </li>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Отсутствие у индивидуального предпринимателя или юридического лица недоимки по налогам и сборам,
+                  страховым взносам в государственные внебюджетные фонды Российской Федерации, задолженности по иным
+                  обязательным платежам в бюджеты бюджетной системы Российской Федерации за прошедший календарный год,
+                  размер которых превышает двадцать пять процентов балансовой стоимости активов заявителя, по данным
+                  бухгалтерской (финансовой) отчетности за последний отчетный период (пп.7 п.7 ст. 11 №212-ФЗ).
+                </span>
+              </li>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Компания не должна находиться в процессе реорганизации, ликвидации, банкротства.
+                </span>
+              </li>
+              <li>
+                <span class="fs-18-400 text-dark">
+                  Виды предпринимательской деятельности, должны соответствовать видам деятельности, закрепленным в
+                  соответствующих Постановлениях Правительства РФ о создании ТОР.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mt-80">
+      <div class="l-wrapper">
+        <div class="l-title">
+          <span class="fs-40-600 text-dark-black">
+            Часто задоваемые вопросы о ТОР
+          </span>
+        </div>
+        <div class="l-accordion__content mt-28">
+          <ul class="accordion">
+            <li class="list">
+              <span class="submenu-toggle">Что такое территория опережающего развития (ТОР)?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    Территория опережающего социально-экономического развития (ТОР) — часть территории субъекта
+                    Российской Федерации, на которой установлен особый правовой режим осуществления предпринимательской
+                    деятельности.
+                  </span>
+                  <ul class="subsubmenu">
+                    <li>
+                      <span class="fs-18-400 text-dark">
+                        Внутри ТОР действуют налоговые льготы и административные преференции для его резидентов
+                      </span>
+                    </li>
+                    <li>
+                      <span class="fs-18-400 text-dark">
+                        Резидент имеет право на получение земельного участка от УК для реализации своего проекта
+                      </span>
+                    </li>
+                    <li>
+                      <span class="fs-18-400 text-dark">
+                        Резидент имеет право на подключение к объектам инфраструктуры: свет, вода, газ, водоотведение,
+                        теплоснабжение
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="list">
+              <span class="submenu-toggle">
+                Сколько будет действовать режим ТОР?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    Режим будет действовать в течение 70 лет.
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <li class="list">
+              <span class="submenu-toggle">
+                Как получить землю в ТОР?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    После заключения соглашения АО «КРДВ» заключает с резидентом ТОР договор аренды земельного участка.
+                    Стоимость аренды рассчитывается для каждого земельного участка индивидуально с учетом льготного
+                    коэффициента. После выполнения резидентом условий по заключенному соглашению АО «КРДВ» предоставляет
+                    земельный участок в собственность путем заключения договора купли-продажи.
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <li class="list">
+              <span class="submenu-toggle">
+                На каких условиях можно получить землю в ТОР?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    Для того, чтобы получить землю в ТОР необходимо получить статус резидента ТОР. Если участок никому
+                    не принадлежит, не обременен и орган местного самоуправления дает разрешение, то земля выдается под
+                    реализацию проекта. Если земельный участок в собственности АО «КРДВ», то также земля выдается под
+                    реализацию проекта.
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li class="list">
+              <span class="submenu-toggle">
+                Как подключиться к инфраструктуре (свет, вода, газ, водоотведение, теплоснабжение) в ТОР?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    АО «КРДВ» осуществляет строительство инфраструктуры в ТОР. Вам необходимо указать в заявке
+                    потребности вашего будущего проекта в электроснабжении, теплоснабжении, водоснабжении,
+                    водоотведении, газоснабжении. Если ваша заявка с данной информацией будет одобрена, вы сможете
+                    подключиться к объектам инфраструктуры. Для каждого ТОРа существует индивидуальный план-график
+                    создания объектов инфраструктуры, содержащий в том числе, сроки введения данных объектов в
+                    эксплуатацию.
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li class="list">
+              <span class="submenu-toggle">
+                Возможно одной компании одновременно быть резидентом СПВ и ТОР?
+                <i class="--svg__accordion-arrow"></i>
+              </span>
+              <ul class="submenu">
+                <li>
+                  <span class='fs-18-400 text-dark'>
+                    Нет, одна компания не может быть одновременно резидентом ТОР и СПВ. Это связано с тем, что
+                    резидентом может стать новое юридическое лицо или новый инвестиционный проект с адресом регистрации
+                    в ТОР или СПВ.
+                  </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+
+          <a href="#" class="l-btn l-btn__white">
+            Подать заявку на получение статуса резидента
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  
+<footer class="l-footer">
+  <div class="flex --align-center" style="background-color: blue; flex-direction:column; color:white; position: absolute;">
+    <a href="/about-yakutia.html">about-yakutia</a>
+    <a href="/invest-standart.html">invest-standart</a>
+    <a href="/invest-svod-pravil.html">invest-svod-pravil</a>
+    <a href="/invest-upolnomochennuye.html">invest-upolnomochennuye</a>
+    <a href="/municip-obrazovanie.html">municip-obrazovanie</a>
+    <a href="/feedback.html">Свяжитесь с нами</a>
+    <a href="/news.html">Новости</a>
+    <a href="/agro-kompleks.html">Агропромышленный комплекс</a>
+    <a href="/invest-projects.html">Инвестиционные проекты</a>
+    <a href="/detail-page-project.html">Подробная страница проекта </a>
+  </div>
+  <div class="l-wrapper">
+    <div class="l-footer__content">
+      <div class="l-footer__left">
+        <a href="/">
+          <svg class="l-footer__logo">
+            <use xlink:href="img/sprite.svg#sprite--logo-white" />
+          </svg>   
+        </a>
+ 
+        <div class="l-footer__left-list">
+          <span class="fs-20-500 text-white">
+            Контакты
+          </span>
+          <ul>  
+            <li>
+              <a href="tel:74112402042" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--phone" />
+                </svg> 
+                <span class="fs-16-400 text-white">+7 (4112) 40-20-42</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--location" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  Республика Саха (Якутия) 677000, г. Якутск, 
+                  <br>
+                  ул. Орджоникидзе, д. 36/1, этаж 5, оф. 503
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@investyakutia.com" class="l-list-item">
+                <svg class="l-list-item__icon">
+                  <use xlink:href="img/sprite.svg#sprite--mail" />
+                </svg> 
+                <span class="text-white fs-16-400">
+                  info@investyakutia.com
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="l-footer__right">
+        <span class="fs-20-500 text-white">
+          Cоциальные сети
+        </span>
+        <ul class="l-social__list">
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--vk" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--telega" />
+              </svg>   
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg class="l-footer__logo">
+                <use xlink:href="img/sprite.svg#sprite--odnoklassniki" />
+              </svg>   
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="l-footer__bottom">
+      <span class="fs-14-400 text-white">
+        2021-2023г. Все права защищены.
+      </span>
+      <a href="#" class="fs-14-400 text-white">
+        Политика конфиденциальности 
+      </a>
+      <span class="fs-14-400 text-white logo-platforma">
+        Разработан в 
+        <a class="" href="https://platforma.bz/" target="_blank">
+
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- <script src="js/libs.min.js"></script> -->
+<script src="js/vue2.js"></script>
+<script src="js/v-calendar.umd.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>
